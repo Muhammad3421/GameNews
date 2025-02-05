@@ -6,22 +6,59 @@
     <title>login</title>
 </head>
 <body>
-    <img src="images/logo-gamenews.png" alt="game news">
-    <h2>Please sign in</h2>
-   <form>
-    <p>
-        <input type="email" placeholder="Email address">
-    </p>
-    <p>
-        <input type="password" placeholder="Password">
-    </p>
-    <p>
-       <input type="radio" id="remember" name="remember" value="Remember me">
-       <label for="remember">Remember me</label>
-    </p>
-    <input type="Sign in" value="Sign in">
-    
-   </form>
+    <header> 
+        <div class="logo">
+          <img src="images/logo-gamenews.png" alt="Logo of Website" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="search-login">
+          <input type="text" placeholder="Search..." />
+          <button class="search-btn">OK</button>
+          <button class="login-btn">Login</button>
+        </div>
+      </header>
+       <main>
+        <div class="logo">
+            <img src="images/logo-gamenews.png" alt="game news">
+        </div>
+        <div>
+            <h2>Please sign in</h2>
+        </div>
+        <div>
+            <form >
+                <p>
+                    <input type="email" placeholder="Email address">
+                </p>
+                <p>
+                    <input type="password" placeholder="Password">
+                </p>
+                <p>
+                   <input type="radio" id="remember" name="remember" value="Remember me">
+                   <label for="remember">Remember me</label>
+                </p>
+                <button>Sign in</button>
+            </form>
+           
+        </div>
+       </main>
+
+       <footer>
+        <div class="footer-links">
+          <div>More sites</div>
+          <div>Reviews</div>
+          <div>News</div>
+          <div>Subscribe to our newsletter</div>
+          <input type="email" placeholder="Email address" />
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+      </footer> 
 
 </body>
 </html>
