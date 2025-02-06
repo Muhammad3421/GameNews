@@ -17,7 +17,7 @@
       <div class="logo">
         <img src="images/logo-gamenews.png" alt="GameNews Logo" />
       </div>
-      <nav>
+      <nav id="home_list">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="news.html">News</a></li>
@@ -27,8 +27,8 @@
       </nav>
       <div class="search-login">
         <input type="text" placeholder="Search..." />
-        <button type="button">OK</button>
-        <button type="button" class="login">Login</button>
+        <button type="button" id="okbtn">OK</button>
+        <button type="button" id="loginbtn">Login</button>
       </div>
     </header>
 
@@ -68,46 +68,52 @@
     </main>
 
     <footer>
-      <div footer-siteslinks>
-        <h2>More sites</h2>
-        <ul>
-          <li><a href="http://gamenews.com">gamenews.com</a></li>
-          <li><a href="http://gameblogs.com">gameblogs.com</a></li>
-          <li><a href="http://gamingarea.com">gamingarea.com</a></li>
-        </ul>
+      <div class="footer-siteslinks">
+        <article id="last">
+          <h2>More sites</h2>
+          <ul>
+            <li><a href="http://gamenews.com">gamenews.com</a></li>
+            <li><a href="http://gameblogs.com">gameblogs.com</a></li>
+            <li><a href="http://gamingarea.com">gamingarea.com</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>Reviews</h2>
+          <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Xbox One</a></li>
+            <li><a href="#">Switch</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>News</h2>
+          <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Xbox One</a></li>
+            <li><a href="#">Switch</a></li>
+          </ul>
+        </article>
+
+        <article class="Subscribe">
+          <h2>Subscribe to our newsletter</h2>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <input type="email" placeholder="Email Address" size="60" />
+          <button type="submit">Subscribe</button>
+        </article>
       </div>
-      <div footer-reviewslinks>
-        <h2>Reviews</h2>
-        <ul>
-          <li><a href="#">PC</a></li>
-          <li><a href="#">PS4</a></li>
-          <li><a href="#">PS5</a></li>
-          <li><a href="#">Xbox One</a></li>
-          <li><a href="#">Switch</a></li>
-        </ul>
-      </div>
-      <div footer-newslinks>
-        <h2>News</h2>
-        <ul>
-          <li><a href="#">PC</a></li>
-          <li><a href="#">PS4</a></li>
-          <li><a href="#">PS5</a></li>
-          <li><a href="#">Xbox One</a></li>
-          <li><a href="#">Switch</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Subscribe to our newsletter</h2>
-        <p>Monthly digest of what's new and exciting from us.</p>
-        <input type="email" placeholder="Email Address" />
-        <button type="submit">Subscribe</button>
-      </div>
+
       <div class="copy-images">
-        <p id="copyright">© 2023 GameNews, Inc. All rights reserved.</p>
-        <img src="images/twitter.jpg" alt="logo of Twitter" />
-        <img src="images/instagram logo.jpg" alt="logo of Instagram" />
-        <img src="images/facebook logo.jpg" alt="logo of Facebook" />
+        <p>© 2023 GameNews, Inc. All rights reserved.</p>
+        <article class="images">
+          <img src="images/twitter.jpg" alt="logo of Twitter" />
+          <img src="images/instagram logo.jpg" alt="logo of Instagram" />
+          <img src="images/facebook logo.jpg" alt="logo of Facebook" />
+        </article>
       </div>
-    </footer>hhhhfghfgh
+    </footer>
   </body>
 </html>
