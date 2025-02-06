@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GameNews</title>
+    <title>Home Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,14 +21,16 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="news.html">News</a></li>
-          <li><a href="review.html">Reviews</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <div class="search-login">
         <input type="text" placeholder="Search..." />
-        <button type="button" id="okbtn">OK</button>
-        <button type="button" id="loginbtn">Login</button>
+        <button type="submit" id="okbtn">OK</button>
+        <a href="login.html"
+          ><button type="button" id="loginbtn">Login</button></a
+        >
       </div>
     </header>
 
@@ -109,9 +111,13 @@
       <div class="copy-images">
         <p>© 2023 GameNews, Inc. All rights reserved.</p>
         <article class="images">
-          <img src="images/twitter.jpg" alt="logo of Twitter" />
-          <img src="images/instagram logo.jpg" alt="logo of Instagram" />
-          <img src="images/facebook logo.jpg" alt="logo of Facebook" />
+          <a href="#"><img src="images/twitter.jpg" alt="logo of Twitter" /></a>
+          <a href="#"
+            ><img src="images/instagram logo.jpg" alt="logo of Instagram"
+          /></a>
+          <a href="#"
+            ><img src="images/facebook logo.jpg" alt="logo of Facebook"
+          /></a>
         </article>
       </div>
     </footer>
