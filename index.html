@@ -4,67 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameNews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/index.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="images/logo-gamenews.png" alt="Logo of Website" />
+        <img src="images/logo-gamenews.png" alt="GameNews Logo" />
       </div>
       <nav>
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="review.html">Reviews</a></li>
-          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <div class="search-login">
         <input type="text" placeholder="Search..." />
-        <button class="search-btn">OK</button>
-        <button class="login-btn">Login</button>
+        <button type="button">OK</button>
+        <button type="button" class="login">Login</button>
       </div>
     </header>
+
     <main>
-      <section class="featured">
-        <div class="featured-text">
+      <section class="hero">
+        <div class="hero-text">
           <h1>The Best Marvel Games Of All Time</h1>
           <p>
             You can live your superhero fantasies with these great games, old
-            and new. And only like half of them Spider_Man Games
+            and new.
           </p>
           <button class="read-more">Read more</button>
         </div>
-        <img
-          src="images/marvel.jpg"
-          alt="Marvel image poster"
-          class="featured-image"
-        />
+        <div class="hero-image">
+          <img src="images/marvel.jpg" alt="Pic of marvel movie" />
+        </div>
       </section>
 
       <section class="latest-news">
-        <h2>Latest news</h2>
-        <div class="news-grid">
-          <div class="news-item">
-            <p><strong>Check Out Tekken 8's Final Launch Fighter</strong></p>
+        <h2>Latest News</h2>
+        <div class="news-container">
+          <div class="news-card">
+            <h3>
+              Check Out Tekken 8's Final Launch Fighter: The Newcomer Reina
+            </h3>
           </div>
-          <div class="news-item">
-            <p><strong>Diablo IV Leads Talk Development Process</strong></p>
+          <div class="news-card">
+            <h3>
+              Diablo IV Leads Talk Development Process, Post-Launch Priorities
+            </h3>
           </div>
-          <div class="news-item">
-            <p><strong>Steam Deck OLED Announced</strong></p>
+          <div class="news-card">
+            <h3>Steam Deck OLED Announced</h3>
           </div>
         </div>
       </section>
     </main>
+
     <footer>
-      <div class="footer-links">
-        <div>More sites</div>
-        <div>Reviews</div>
-        <div>News</div>
-        <div>Subscribe to our newsletter</div>
-        <input type="email" placeholder="Email address" />
-        <button class="subscribe-btn">Subscribe</button>
+      <div footer-siteslinks>
+        <h2>More sites</h2>
+        <ul>
+          <li><a href="http://gamenews.com">gamenews.com</a></li>
+          <li><a href="http://gameblogs.com">gameblogs.com</a></li>
+          <li><a href="http://gamingarea.com">gamingarea.com</a></li>
+        </ul>
+      </div>
+      <div footer-reviewslinks>
+        <h2>Reviews</h2>
+        <ul>
+          <li><a href="#">PC</a></li>
+          <li><a href="#">PS4</a></li>
+          <li><a href="#">PS5</a></li>
+          <li><a href="#">Xbox One</a></li>
+          <li><a href="#">Switch</a></li>
+        </ul>
+      </div>
+      <div footer-newslinks>
+        <h2>News</h2>
+        <ul>
+          <li><a href="#">PC</a></li>
+          <li><a href="#">PS4</a></li>
+          <li><a href="#">PS5</a></li>
+          <li><a href="#">Xbox One</a></li>
+          <li><a href="#">Switch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Subscribe to our newsletter</h2>
+        <p>Monthly digest of what's new and exciting from us.</p>
+        <input type="email" placeholder="Email Address" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <div class="copy-images">
+        <p id="copyright">© 2023 GameNews, Inc. All rights reserved.</p>
+        <img src="images/twitter.jpg" alt="logo of Twitter" />
+        <img src="images/instagram logo.jpg" alt="logo of Instagram" />
+        <img src="images/facebook logo.jpg" alt="logo of Facebook" />
       </div>
     </footer>
   </body>
