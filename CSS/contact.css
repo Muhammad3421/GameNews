@@ -1,0 +1,114 @@
+body {
+  font-family: "Open Sans", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  position: sticky;
+  top: 1px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid #ddd;
+}
+.logo img {
+  height: 40px;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  color: #1a1a1a;
+}
+#home_list li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+#home_list li a:hover {
+  color: #ffffff;
+  background-color: #d4145a;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.search-login {
+  display: flex;
+  gap: 10px;
+}
+
+.search-login input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #1a1a1a;
+}
+
+#okbtn {
+  background-color: #d4145a;
+  border: none;
+  border-radius: 8px;
+}
+
+#loginbtn {
+  margin-left: 100px;
+  border-color: #d4145a;
+  border-radius: 8%;
+  padding: 10px;
+}
+
+.search-login button {
+  background-color: #e6007e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #343a40;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
