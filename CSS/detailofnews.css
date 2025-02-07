@@ -83,4 +83,16 @@ body {
   }
   h2 {
     color: #d4145a;
+    margin-left: 5%;
   }
+  .image {
+    display: flex
+  }
+  .image img {
+    width:900px
+  }
+  .paragraph {
+    margin-left: 10%;
+    margin-right: 40%;
+  }
+  
