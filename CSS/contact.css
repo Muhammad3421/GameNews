@@ -7,11 +7,6 @@ body {
 
 main {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-main {
   padding: 20px;
 }
 
@@ -66,6 +61,7 @@ header nav ul li {
 
 #okbtn {
   background-color: #d4145a;
+  padding: 1px 4px 1px 4px;
   border: none;
   border-radius: 8px;
 }
@@ -85,17 +81,30 @@ header nav ul li {
   cursor: pointer;
 }
 
-h1 {
-  color: #343a40;
+main h1 {
+  color: #d4145a;
+  padding-left: 90px;
 }
 
-form {
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  display: flex;
+  gap: 30px;
+}
+
+.contform {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
-input[type="text"],
+.contform p {
+  margin: 0;
+}
+
+.contform input[type="text"],
 textarea,
 select {
   padding: 10px;
@@ -104,11 +113,62 @@ select {
   margin-bottom: 15px;
 }
 
-button {
+#sendbtn {
   background-color: #dc3545;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.contlogo img {
+  width: 400px;
+}
+
+.footer-siteslinks {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+footer div {
+  margin: 10px;
+}
+
+footer h2 {
+  font-size: 18px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer ul li a:hover {
+  color: #1a1a1a;
+  background-color: #d4145a;
+  border-radius: 8px;
+}
+
+.copy-images {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 780px;
+}
+
+.images img {
+  height: 20px;
+  border-radius: 8px;
+}
+
+#subtn {
+  padding: 3px;
 }

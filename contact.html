@@ -1,114 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact us</title>
-    <link rel="stylesheet" href="CSS/contact.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="images/logo-gamenews.png" alt="GameNews Logo" />
-    </div>
-    <nav id="home_list">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="search-login">
-      <input type="text" placeholder="Search..." />
-      <button type="submit" id="okbtn">OK</button>
-      <a href="login.html"
-        ><button type="button" id="loginbtn">Login</button></a
-      >
-    </div>
-  </header>
-<main>
-    <div>
-        <h1>Contact us</h1>
-    </div>
-<div>
-    <form>
-        <p>
-            <label for="topic">Topic</label><br>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo-gamenews.png" alt="GameNews Logo" />
+      </div>
+      <nav id="home_list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-login">
+        <input type="text" placeholder="Search..." />
+        <button type="submit" id="okbtn">OK</button>
+        <a href="login.html"
+          ><button type="button" id="loginbtn">Login</button></a
+        >
+      </div>
+    </header>
+    <main>
+      <h1>Contact us</h1>
+
+      <div class="main">
+        <form class="contform">
+          <p>
+            <label for="topic">Topic</label><br />
             <select name="topic" id="topic">
-                <option value="topic">choose..</option>
-                <option value="topic">saurav</option>
+              <option value="topic">choose..</option>
+              <option value="topic">saurav</option>
             </select>
-            
-        </p>
-        <p>
-            <label for="email">Email adress </label><br>
-            <input type="text" id="email" name="email" placeholder="name@example.com">
-        </p>
-            <p>
-                <label for="message">Message</label><br>
-                <textarea name="message" id="message" rows="5" cols="50"></textarea>
-            </p>
-            <button>Send your message</button>
+          </p>
+          <p>
+            <label for="email">Email adress </label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="name@example.com"
+            />
+          </p>
+          <p>
+            <label for="message">Message</label><br />
+            <textarea name="message" id="message" rows="5" cols="50"></textarea>
+          </p>
+          <button id="sendbtn">Send your message</button>
+        </form>
 
-</div>
-    <div class="logo">
-        <img src="images/logo-gamenews.png" alt="game news">
-    </div>
-</main> 
+        <article class="contlogo">
+          <img src="images/logo-gamenews.png" alt="game news" />
+        </article>
+      </div>
+    </main>
 
-<footer>
-  <div class="footer-siteslinks">
-    <article id="last">
-      <h2>More sites</h2>
-      <ul>
-        <li><a href="http://gamenews.com">gamenews.com</a></li>
-        <li><a href="http://gameblogs.com">gameblogs.com</a></li>
-        <li><a href="http://gamingarea.com">gamingarea.com</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>Reviews</h2>
-      <ul>
-        <li><a href="#">PC</a></li>
-        <li><a href="#">PS4</a></li>
-        <li><a href="#">PS5</a></li>
-        <li><a href="#">Xbox One</a></li>
-        <li><a href="#">Switch</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>News</h2>
-      <ul>
-        <li><a href="#">PC</a></li>
-        <li><a href="#">PS4</a></li>
-        <li><a href="#">PS5</a></li>
-        <li><a href="#">Xbox One</a></li>
-        <li><a href="#">Switch</a></li>
-      </ul>
-    </article>
+    <footer>
+      <div class="footer-siteslinks">
+        <article id="last">
+          <h2>More sites</h2>
+          <ul>
+            <li><a href="http://gamenews.com">gamenews.com</a></li>
+            <li><a href="http://gameblogs.com">gameblogs.com</a></li>
+            <li><a href="http://gamingarea.com">gamingarea.com</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>Reviews</h2>
+          <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Xbox One</a></li>
+            <li><a href="#">Switch</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>News</h2>
+          <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Xbox One</a></li>
+            <li><a href="#">Switch</a></li>
+          </ul>
+        </article>
 
-    <article class="Subscribe">
-      <h2>Subscribe to our newsletter</h2>
-      <p>Monthly digest of what's new and exciting from us.</p>
-      <input type="email" placeholder="Email Address" size="60" />
-      <button type="submit">Subscribe</button>
-    </article>
-  </div>
+        <article class="Subscribe">
+          <h2>Subscribe to our newsletter</h2>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <input type="email" placeholder="Email Address" size="60" />
+          <button type="submit" id="subtn">Subscribe</button>
+        </article>
+      </div>
 
-  <div class="copy-images">
-    <p>© 2023 GameNews, Inc. All rights reserved.</p>
-    <article class="images">
-      <a href="#"><img src="images/twitter.jpg" alt="logo of Twitter" /></a>
-      <a href="#"
-        ><img src="images/instagram logo.jpg" alt="logo of Instagram"
-      /></a>
-      <a href="#"
-        ><img src="images/facebook logo.jpg" alt="logo of Facebook"
-      /></a>
-    </article>
-  </div>
-</footer>
-
-</body>
+      <div class="copy-images">
+        <p>© 2023 GameNews, Inc. All rights reserved.</p>
+        <article class="images">
+          <a href="#"><img src="images/twitter.jpg" alt="logo of Twitter" /></a>
+          <a href="#"
+            ><img src="images/instagram logo.jpg" alt="logo of Instagram"
+          /></a>
+          <a href="#"
+            ><img src="images/facebook logo.jpg" alt="logo of Facebook"
+          /></a>
+        </article>
+      </div>
+    </footer>
+  </body>
 </html>

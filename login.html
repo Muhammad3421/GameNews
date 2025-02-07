@@ -1,64 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
-</head>
-<body>
-    <header> 
-        <div class="logo">
-          <img src="images/logo-gamenews.png" alt="Logo of Website" />
-        </div>
-        <nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo-gamenews.png" alt="GameNews Logo" />
+      </div>
+      <nav id="home_list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-login">
+        <input type="text" placeholder="Search..." />
+        <button type="submit" id="okbtn">OK</button>
+        <a href="login.html"
+          ><button type="button" id="loginbtn">Login</button></a
+        >
+      </div>
+    </header>
+    <main>
+      <div class="mainlogo">
+        <img src="images/logo-gamenews.png" alt="game news" />
+      </div>
+      <div>
+        <h2>Please sign in</h2>
+      </div>
+      <div>
+        <form>
+          <article class="input">
+            <input type="email" placeholder="Email address" />
+            <input type="password" placeholder="Password" />
+          </article>
+          <article class="radio">
+            <input
+              type="radio"
+              id="remember"
+              name="remember"
+              value="Remember me"
+            />
+            <label for="radio">Remember me</label>
+          </article>
+
+          <button>Sign in</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-siteslinks">
+        <article id="last">
+          <h2>More sites</h2>
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="review.html">Reviews</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="http://gamenews.com">gamenews.com</a></li>
+            <li><a href="http://gameblogs.com">gameblogs.com</a></li>
+            <li><a href="http://gamingarea.com">gamingarea.com</a></li>
           </ul>
-        </nav>
-        <div class="search-login">
-          <input type="text" placeholder="Search..." />
-          <button class="search-btn">OK</button>
-          <button class="login-btn">Login</button>
-        </div>
-      </header>
-       <main>
-        <div class="logo">
-            <img src="images/logo-gamenews.png" alt="game news">
-        </div>
-        <div>
-            <h2>Please sign in</h2>
-        </div>
-        <div>
-            <form >
-                <p>
-                    <input type="email" placeholder="Email address">
-                </p>
-                <p>
-                    <input type="password" placeholder="Password">
-                </p>
-                <p>
-                   <input type="radio" id="remember" name="remember" value="Remember me">
-                   <label for="remember">Remember me</label>
-                </p>
-                <button>Sign in</button>
-            </form>
-           <p>a</p>
-        </div>
-       </main>
+        </article>
+        <article>
+          <h2>Reviews</h2>
+          <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Xbox One</a></li>
+            <li><a href="#">Switch</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>News</h2>
+          <ul>
+            <li><a href="#">PC</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">PS5</a></li>
+            <li><a href="#">Xbox One</a></li>
+            <li><a href="#">Switch</a></li>
+          </ul>
+        </article>
 
-       <footer>
-        <div class="footer-links">
-          <div>More sites</div>
-          <div>Reviews</div>
-          <div>News</div>
-          <div>Subscribe to our newsletter</div>
-          <input type="email" placeholder="Email address" />
-          <button class="subscribe-btn">Subscribe</button>
-        </div>
-      </footer> 
+        <article class="Subscribe">
+          <h2>Subscribe to our newsletter</h2>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <input id="subemail" type="email" placeholder="Email Address" />
+          <button type="submit">Subscribe</button>
+        </article>
+      </div>
 
-</body>
+      <div class="copy-images">
+        <p>© 2023 GameNews, Inc. All rights reserved.</p>
+        <article class="images">
+          <a href="#"><img src="images/twitter.jpg" alt="logo of Twitter" /></a>
+          <a href="#"
+            ><img src="images/instagram logo.jpg" alt="logo of Instagram"
+          /></a>
+          <a href="#"
+            ><img src="images/facebook logo.jpg" alt="logo of Facebook"
+          /></a>
+        </article>
+      </div>
+    </footer>
+  </body>
 </html>
